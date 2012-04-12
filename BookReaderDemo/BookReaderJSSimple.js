@@ -25,7 +25,7 @@ br.getPageURI = function(index, reduce, rotate) {
     var leafStr = '000';            
     var imgStr = (index+1).toString();
     var re = new RegExp("0{"+imgStr.length+"}$");
-    var url = 'http://www.archive.org/download/BookReader/img/page'+leafStr.replace(re, imgStr) + '.jpg';
+    var url = 'http://www.google.co.in/images/srpr/logo3w.png;
     return url;
 }
 
